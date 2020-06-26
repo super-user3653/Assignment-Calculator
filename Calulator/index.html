@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script rel="" src="app.js"></script> 
+    <title>Calculator</title>
+</head>
+<body>
+
+
+
+<div class="main">
+
+<div>
+    <div><p style="font-size: 35px; color: #51C9DC;">=</p></div>
+    <div><input style="font-size: 35px;" id="result" class="result" type="text"></div>
+    
+</div>
+    <div>
+        <button class="sbtn" onclick="ClearResult()">CE</button>
+        <button class="sbtn pow" onclick="getSquare()">x<sup>2</sup></button>
+        <button class="sbtn" onclick="getNumber('%')">%</button>
+        <button class="sbtn" onclick="getNumber('/')">/</button>
+    <div>
+        <button class="btn" onclick="getNumber('7')">7</button>
+        <button class="btn" onclick="getNumber('8')">8</button>
+        <button class="btn" onclick="getNumber('9')">9</button>
+        <button class="sbtn" onclick="getNumber('*')">*</button>
+    </div>
+    <div>        
+        <button class="btn" onclick="getNumber('4')">4</button>
+        <button class="btn" onclick="getNumber('5')">5</button>
+        <button class="btn" onclick="getNumber('6')">6</button>
+        <button class="sbtn" onclick="getNumber('-')">-</button>
+    
+    </div>
+    <div class="onetwothree">
+        <button class="btn" onclick="getNumber('1')">1</button>
+        <button class="btn" onclick="getNumber('2')">2</button>
+        <button class="btn" onclick="getNumber('3')">3</button>
+        <button class="sbtn plus" onclick="getNumber('+')">+</button>
+    </div>
+
+    <div class="equal">
+        <button class="btn" onclick="getNumber('0')">0</button>
+        <button class="btn" onclick="getNumber('.')">.</button>
+        <button class="sbtn" onclick="GetResult()">=</button>
+    </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
